@@ -1,0 +1,49 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node, Vite, and frontend build output
+node_modules/
+frontend/dist/
+frontend/.vite/
+dist/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Large/raw data and generated analysis artifacts
+data/raw/*
+data/processed/*
+data/reports/*
+
+# Keep directory documentation available if added later
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/reports/.gitkeep
+
+# IDE and operating-system files
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files and generated reports
+*.tmp
+*.temp
+*.log
+reports/
+coverage/
